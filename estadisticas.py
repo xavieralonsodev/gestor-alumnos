@@ -1,7 +1,3 @@
-alumnos = [
-    {"nombre": "Ana", "edad": 20, "nota": 8.5},
-    {"nombre": "Luis", "edad": 22, "nota": 6.9}
-]
 
 def estadisticas(alumnos):
     total_notas = 0
@@ -16,4 +12,5 @@ def estadisticas(alumnos):
     print(f'El maximo nota. {maximo}')
     print(f'El minimo nota. {minimo}')
 estadisticas(alumnos)            
+
     
