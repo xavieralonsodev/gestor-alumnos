@@ -1,4 +1,6 @@
 import os
+import funciones_alumnos as func
+import estadisticas as est
 
 alumnos = [
     {"nombre": "Ana", "edad": 20, "nota": 8.5},
@@ -18,14 +20,14 @@ while True:
     if 0 < int(opcion) <= 5:
         match opcion:
             case '1':
-                mostrar()
+                func.mostrar()
                 input('Presiona Return ....')
             case '2':
-                afegir()
+                func.afegir()
             case '3':
-                buscar()
+                func.buscar()
             case '4':
-                estadisticas()
+                est.estadisticas()
             case '5':
                 break
     else:
