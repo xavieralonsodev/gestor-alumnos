@@ -10,7 +10,7 @@ def estadisticas(alumnos):
         minimo = min(nota_lista)
     print(f'La media nota es. {media_nota}')
     print(f'El maximo nota. {maximo}')
-    print(f'El minimo nota. {minimo}')
-estadisticas(alumnos)            
+    print(f'El minimo nota. {minimo}')          
 
     
+
