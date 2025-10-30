@@ -20,14 +20,14 @@ while True:
     if 0 < int(opcion) <= 5:
         match opcion:
             case '1':
-                func.mostrar()
+                func.mostrar(alumnos)
                 input('Presiona Return ....')
             case '2':
-                func.afegir()
+                func.afegir(alumnos)
             case '3':
-                func.buscar()
+                func.buscar(alumnos)
             case '4':
-                est.estadisticas()
+                est.estadisticas(alumnos)
             case '5':
                 break
     else:
