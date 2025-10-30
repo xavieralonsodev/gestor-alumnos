@@ -26,11 +26,13 @@ while True:
                 func.afegir(alumnos)
             case '3':
                 func.buscar(alumnos)
+                input('Presiona Return ....')
             case '4':
                 est.estadisticas(alumnos)
+                input('Presiona Return ....')
             case '5':
                 break
     else:
-        print('Opcion no valida')
+        print('Opcion no valida.')
         
         
